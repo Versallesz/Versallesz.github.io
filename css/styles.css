@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+/********************HEADER********************/
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px; /*smaller smartphone dimension*/
+  /* height: 374px; */
+  height: 80vh;
+  text-align: center;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-color: #8e9ccf;
+}
+.header--shape {
+  margin-top: -100px;
+}
+.header--title-container {
+  min-width: 288px;
+  max-width: 900px;
+  height: 100px;
+  text-align: center;
+  align-self: center;
+}
+.header--title-container h1 {
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+.header--title-container p {
+  font-size: 1.2rem;
+}
+
+header img {
+  width: 150px;
+  height: 84px;
+  align-self: center;
+}
+
+/********************MAIN********************/
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+.main--info {
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.section--text {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.section--text h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: black;
+}
+.section--text p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+.main--info .ilustracion-svg {
+  width: 150px;
+  height: 84px;
+  align-self: center;
+}
+/****HABILIDADES****/
+.mis-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /*alinea horizontalmente*/
+}
+
+.carta-habilidades {
+  height: 37px;
+  width: 129px;
+  padding: 10px;
+  margin: 9px;
+  color: white;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: cornflowerblue;
+  border-radius: 20px;
+}
+.carta-habilidades p {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+/****CERTIFICADOS****/
+.certificado-detalle {
+  position: relative;
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 220px;
+  margin: 15px auto;
+  /* padding: 15px; */
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.certificado-detalle--img {
+  width: 100%;
+  height: 22vh;
+  border-radius: 10px 10px 0 0;
+}
+.btn-ver-certificado {
+  position: absolute;
+  width: 140px;
+  height: 45px;
+  top: 115px;
+  left: calc(50% - 70px);
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: "Roboto", sans-serif;
+}
+
+.certificado--titulo {
+  margin-top: 30px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
