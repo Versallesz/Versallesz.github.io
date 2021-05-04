@@ -50,12 +50,15 @@ header img {
 .header--buttons {
   margin-top: 40px;
 }
-.header--buttons button {
-  height: 40px;
-  width: 230px;
-  border-radius: 20px;
+.header--buttons a {
+  height: 140px;
+  width: 330px;
+  background-color: white;
+  text-decoration: none;
   border: none;
+  border-radius: 20px;
   margin: 10px;
+  padding: 10px;
   outline: none;
 }
 
