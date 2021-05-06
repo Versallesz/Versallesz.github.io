@@ -49,10 +49,15 @@ header img {
 }
 .header--buttons {
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .header--buttons a {
-  height: 140px;
-  width: 330px;
+  display: block;
+  height: 40px;
+  width: 290px;
+  font-size: 1.4rem;
   background-color: white;
   text-decoration: none;
   border: none;
