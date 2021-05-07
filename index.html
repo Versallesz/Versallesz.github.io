@@ -20,8 +20,8 @@
             <img src="./assets/undraw_design_notes_8dmv 1.svg" alt="">
         </div>
         <div class="header--buttons">
-            <a href="#quien_soy">Sobre mi</a>
-            <a href="#">Contáctame</a>
+            <a href="#quien_soy">Sobre mí</a>
+            <a href="#sec_contacto">Contáctame</a>
             
         </div>
     </header>
@@ -84,28 +84,47 @@
                     <a href=""  target="_blank" class="btn-ver-certificado">Ver certificado</a>
                     <p class="certificado--titulo">Frontend Developer</p>
                 </article>
-
-                <p>¡Entre otros!</p>
+                <!-- <p>entre otros</p> -->
             </section>
         </section>
         <!-- CONTACTO -->
-        <section class="main-info contacto">
-            <form action="" class="formulario">
-                <h2>Contáctame</h2>
-                <label for="nombre">
-                    <span>Nombre completo*</span>
-                    <input type="text" id="nombre" placeholder="Tu nombre">
-                </label>
-                <label for="correo">
-                    <span>Correo*</span>
-                    <input type="email" id="correo">
-                </label>
-                <label for="mensaje">
-                    <span>Correo*</span>
-                    <input type="text" id="mensaje">
-                </label>
-            </form>
+        <section id="sec_contacto" class="main-info contacto">
+            <div class="contenedor-formulario">
+                <form action="" class="formulario">
+                    <h2>Contáctame</h2>
+                    
+                    <label for="nombre">
+                        <span>Nombre completo*</span>
+                        <input type="text" id="nombre" class="form--input" autocomplete="name" placeholder="Tu nombre" required>
+                    </label>
+
+                    <label for="correo">
+                        <span>Correo*</span>
+                        <input type="email" id="correo" class="form--input" autocomplete="email" placeholder="Tu correo" required>
+                    </label>
+
+                    <label for="mensaje">
+                        <span>Tu mensaje*</span>
+                        <input type="text" id="mensaje" class="form--input" placeholder="Tu mensaje" required>
+                    </label>
+                    <input type="submit" class="btn-enviar" value="Enviar">
+                </form>
+            </div>
+            <div class="contenedor-redes">
+                <h3>¡También puedes encontrarme por aquí!</h3>
+                <div class="lista-redes">
+                    <ul>
+                        <li> <a href=""><span></span></a> </li>
+                        <li> <a href=""><span></span></a> </li>
+                        <li> <a href=""><span></span></a> </li>
+                    </ul>
+                </div>
+            </div>
         </section>
+        <!-- FOOTER -->
+        <footer>
+
+        </footer>
     </main>
 </body>
 </html>
