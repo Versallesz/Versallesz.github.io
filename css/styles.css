@@ -185,18 +185,40 @@ main {
 }
 
 .formulario {
-  min-width: 300px;
-  max-width: 400px;
+  max-width: 370px;
+  padding: 25px;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 10px 14px 6px #e2e1e1;
+  box-shadow: 5px 10px 14px 6px #e2e1e1;
+}
+.formulario h2 {
+  font-size: 2.1rem;
+}
+
+.formulario label {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .form--input {
   width: 95%;
-  height: 32px;
-  margin: 1rem;
+  height: 42px;
+  margin: 1rem 0;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid black;
 }
-
+label span {
+  position: absolute;
+  font-size: 1.3rem;
+}
 .btn-enviar {
   width: 95%;
 }
+
+/****REDES****/
