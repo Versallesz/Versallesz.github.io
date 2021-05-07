@@ -20,13 +20,13 @@
             <img src="./assets/undraw_design_notes_8dmv 1.svg" alt="">
         </div>
         <div class="header--buttons">
-            <a href="#">Mis proyectos</a>
+            <a href="#quien_soy">Sobre mi</a>
             <a href="#">Contáctame</a>
             
         </div>
     </header>
     <main>
-        <section class="main--info quien-soy">
+        <section id="quien_soy" class="main--info quien-soy">
             <div class="section--text">
                 <h2>¿Quién soy?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -62,28 +62,49 @@
                 <!--CERTIFICADO 1-->
                 <article class="certificado-detalle">
                     <img class="certificado-detalle--img" src="./assets/github-small.jpg" alt="">
-                    <button class="btn-ver-certificado">Ver certificado</button>
+                    <a href="" class="btn-ver-certificado">Ver certificado</a>
                     <p class="certificado--titulo">GIT y GITHUB</p>
                 </article>
                 <!--CERTIFICADO 2-->
                 <article class="certificado-detalle">
                     <img class="certificado-detalle--img" src="./assets/html.jpg" alt="">
-                    <button class="btn-ver-certificado">Ver certificado</button>
+                    <a href="https://platzi.com/p/versallesz/curso/2008-course/diploma/detalle/" target="_blank" class="btn-ver-certificado">Ver certificado</a>
                     <p class="certificado--titulo">HTML y CSS</p>
                 </article>
                 <!--CERTIFICADO 3-->
                 <article class="certificado-detalle">
                     <img class="certificado-detalle--img" src="./assets/ui-ux-small.jpg" alt="">
-                    <button class="btn-ver-certificado">Ver certificado</button>
+                    <a href="" target="_blank" class="btn-ver-certificado">Ver certificado</a>
                     <p class="certificado--titulo">Fundamentos de diseño de interfaces UX/UI</p>
                 </article>
+                
                 <!--CERTIFICADO 4-->
                 <article class="certificado-detalle">
                     <img class="certificado-detalle--img" src="./assets/frontend-small.jpg" alt="">
-                    <button class="btn-ver-certificado">Ver certificado</button>
+                    <a href=""  target="_blank" class="btn-ver-certificado">Ver certificado</a>
                     <p class="certificado--titulo">Frontend Developer</p>
                 </article>
+
+                <p>¡Entre otros!</p>
             </section>
+        </section>
+        <!-- CONTACTO -->
+        <section class="main-info contacto">
+            <form action="" class="formulario">
+                <h2>Contáctame</h2>
+                <label for="nombre">
+                    <span>Nombre completo*</span>
+                    <input type="text" id="nombre" placeholder="Tu nombre">
+                </label>
+                <label for="correo">
+                    <span>Correo*</span>
+                    <input type="email" id="correo">
+                </label>
+                <label for="mensaje">
+                    <span>Correo*</span>
+                    <input type="text" id="mensaje">
+                </label>
+            </form>
         </section>
     </main>
 </body>
