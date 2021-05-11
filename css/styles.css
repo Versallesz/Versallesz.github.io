@@ -1,3 +1,8 @@
+:root {
+  --main-color: #8e9ccf;
+  --secondary-color: rgb(105, 147, 224);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,7 +26,7 @@ header {
   text-align: center;
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  background-color: #8e9ccf;
+  background-color: var(--main-color);
 }
 .header--shape {
   margin-top: -40px;
@@ -68,11 +73,11 @@ header img {
 .btn-primario {
   background-color: white;
   border: none;
-  color: #8e9ccf;
+  color: var(--main-color);
   font-weight: 500;
 }
 .btn-secundario {
-  background-color: #8e9ccf;
+  background-color: var(--main-color);
   border: 1px solid white;
   color: white;
 }
@@ -129,7 +134,7 @@ main {
   color: white;
   /* justify-content: center; */
   /* align-items: center; */
-  background-color: cornflowerblue;
+  background-color: var(--secondary-color);
   border-radius: 20px;
 }
 .carta-habilidades p {
@@ -191,10 +196,12 @@ main {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contenedor-formulario {
-  padding: 18px;
+  padding: 9px;
 }
 
 .formulario {
@@ -257,8 +264,15 @@ label span {
   font-size: 1.5rem;
 }
 
+.lista-redes ul {
+  display: flex;
+  list-style: none;
+}
 .lista-redes ul li {
-  display: inline-block;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .redes-img {
@@ -268,6 +282,19 @@ label span {
 
 /****FOOTER****/
 footer {
-  height: 20px;
-  background-color: cornflowerblue;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div p {
+  padding: 1em;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
