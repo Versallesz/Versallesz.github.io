@@ -1,6 +1,8 @@
 :root {
   --main-color: #8e9ccf;
   --secondary-color: rgb(105, 147, 224);
+  --btn-enviar: #ffb2b2;
+  --background-contacto: whitesmoke;
 }
 
 * {
@@ -192,7 +194,7 @@ main {
 /****FORMULARIO****/
 
 .contacto {
-  background-color: whitesmoke;
+  background-color: var(--background-contacto);
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -252,7 +254,7 @@ label span {
   border-radius: 20px;
   border: none;
   font-size: 1.4rem;
-  background-color: #ffb2b2;
+  background-color: var(--btn-enviar);
 }
 
 /****REDES****/
