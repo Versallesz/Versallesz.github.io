@@ -1,0 +1,27 @@
+/********************HEADER********************/
+header {
+  align-items: unset;
+  padding-left: 40px;
+}
+.header--shape {
+  display: flex;
+}
+
+.header--title-container {
+  min-width: 288px;
+  max-width: 900px;
+  height: 100px;
+  padding-left: 12px;
+  text-align: left;
+}
+
+.header--img-container img {
+  width: 417px;
+  height: 306.15px;
+}
+
+.header--buttons {
+  justify-content: left;
+}
+
+/********************MAIN********************/

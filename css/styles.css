@@ -77,11 +77,13 @@ header img {
   border: none;
   color: var(--main-color);
   font-weight: 500;
+  margin: 11px;
 }
 .btn-secundario {
   background-color: var(--main-color);
   border: 1px solid white;
   color: white;
+  margin: 11px;
 }
 
 /********************MAIN********************/
