@@ -1,10 +1,11 @@
 /********************HEADER********************/
 header {
   align-items: unset;
-  padding-left: 40px;
 }
 .header--shape {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header--title-container {
@@ -16,8 +17,8 @@ header {
 }
 
 .header--img-container img {
-  width: 417px;
-  height: 306.15px;
+  width: 355px;
+  height: 296.15px;
 }
 
 .header--buttons {
