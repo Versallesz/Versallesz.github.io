@@ -1,6 +1,7 @@
 /********************HEADER********************/
 header {
   align-items: unset;
+  height: 85vh;
 }
 .header--shape {
   display: flex;
@@ -16,13 +17,31 @@ header {
   text-align: left;
 }
 
+.header--title-container h1 {
+  font-size: 3.9rem;
+  font-weight: bold;
+}
+.header--title-container p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
 .header--img-container img {
   width: 355px;
   height: 296.15px;
 }
 
-.header--buttons {
+.header--buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header .header--buttons {
   justify-content: left;
 }
 
 /********************MAIN********************/
+
+.main--info {
+  text-align: left;
+}
