@@ -26,7 +26,8 @@ header {
   font-weight: 300;
 }
 
-.header--img-container img {
+.header--img-container img,
+.ilustracion-svg {
   width: 355px;
   height: 296.15px;
 }
@@ -54,8 +55,13 @@ header {
 }
 
 .texto-ilustracion {
-  display: inline-block;
+  display: flex;
 }
 .texto-ilustracion p {
-  width: 50%;
+  width: 100%;
+  order: 2;
+}
+/*** HABILIDADES ***/
+.mis-habilidades {
+  order: 3;
 }
