@@ -34,6 +34,8 @@ header {
 .header--buttons-container {
   display: flex;
   justify-content: space-around;
+  margin-top: -65px;
+  margin-left: -40px;
 }
 
 .header .header--buttons {
@@ -44,4 +46,16 @@ header {
 
 .main--info {
   text-align: left;
+}
+
+.mis-habilidades,
+.certificado-detalle {
+  text-align: center;
+}
+
+.texto-ilustracion {
+  display: inline-block;
+}
+.texto-ilustracion p {
+  width: 50%;
 }
