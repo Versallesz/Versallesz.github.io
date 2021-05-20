@@ -26,8 +26,7 @@ header {
   font-weight: 300;
 }
 
-.header--img-container img,
-.ilustracion-svg {
+.header--img-container img {
   width: 355px;
   height: 296.15px;
 }
@@ -47,6 +46,7 @@ header {
 
 .main--info {
   text-align: left;
+  margin-bottom: 100px;
 }
 
 .mis-habilidades,
@@ -61,7 +61,15 @@ header {
   width: 100%;
   order: 2;
 }
+
+.main--info .ilustracion-svg {
+  width: 22%;
+  margin-right: 40px;
+  height: 250px;
+}
+
 /*** HABILIDADES ***/
 .mis-habilidades {
   order: 3;
+  margin: 63px;
 }
