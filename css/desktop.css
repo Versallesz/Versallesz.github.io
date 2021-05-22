@@ -61,6 +61,9 @@ header {
   width: 100%;
   order: 2;
 }
+.quien-soy--texto p {
+  width: 70%;
+}
 
 .main--info .ilustracion-svg {
   width: 22%;
