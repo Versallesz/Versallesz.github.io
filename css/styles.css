@@ -150,7 +150,7 @@ main {
 .certificados--container {
   flex-wrap: wrap;
   display: flex;
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 
