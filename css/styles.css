@@ -62,11 +62,11 @@ header {
 
 header img {
   width: 150px;
-  height: 84px;
+  height: 135px;
   align-self: center;
 }
 .header--buttons {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
