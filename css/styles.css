@@ -1,9 +1,14 @@
 :root {
   --main-color: #8e9ccf;
-  --secondary-color: rgb(105, 147, 224);
+  --secondary-color: #356be1;
   --btn-enviar: #ffb2b2;
+  --btn-hover: #faaea7;
   --background-contacto: whitesmoke;
 }
+/*other colors: 
+svg images color: #356BE1
+
+*/
 
 * {
   box-sizing: border-box;
@@ -28,6 +33,11 @@ header {
   text-align: center;
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-image: url("../assets/Sun-Tornado2.svg");
+  opacity: 0.95;
+  background-size: cover;
+  background-position: center; /*nos permite tener visibilidad del centro de la imagen*/
+  background-repeat: no-repeat;
   background-color: var(--main-color);
 }
 .header--shape {
@@ -46,7 +56,8 @@ header {
 }
 .header--title-container p {
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: lighter;
+  color: white;
 }
 
 header img {
@@ -66,21 +77,27 @@ header img {
   width: 290px;
   font-size: 1.4rem;
   text-decoration: none;
+  border: none;
   border-radius: 20px;
   margin: 10px 0;
   padding: 10px;
   outline: none;
   letter-spacing: 1px;
 }
+.btn:hover {
+  background-color: var(--btn-hover);
+  color: black;
+  border: none;
+}
 .btn-primario {
   background-color: white;
   border: none;
-  color: var(--main-color);
+  color: black;
   font-weight: 500;
   margin: 11px;
 }
 .btn-secundario {
-  background-color: var(--main-color);
+  background-color: transparent;
   border: 1px solid white;
   color: white;
   margin: 11px;
@@ -112,6 +129,7 @@ main {
   line-height: 2.6rem;
   color: black;
 }
+
 .section--text p {
   margin-bottom: 30px;
   font-size: 1.4rem;

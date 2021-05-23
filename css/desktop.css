@@ -23,7 +23,7 @@ header {
 }
 .header--title-container p {
   font-size: 1.8rem;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 .header--img-container img {
