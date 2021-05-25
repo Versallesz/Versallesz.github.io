@@ -279,6 +279,7 @@ label span {
   border: none;
   font-size: 1.4rem;
   background-color: var(--btn-enviar);
+  cursor: pointer;
 }
 
 /****REDES****/
