@@ -29,6 +29,7 @@ header {
   width: 100%;
   min-width: 320px; /*smaller smartphone dimension*/
   /* height: 374px; */
+  min-height: 470px;
   height: 80vh;
   text-align: center;
   align-items: center;
