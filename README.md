@@ -5,6 +5,7 @@ Bienvenido a mi página web, donde a modo de portafolio podrás ver los distinto
 ### ¿Qué verás?
 Esta página consta de 4 secciones:
 - Sobre mi
+- Mis proyectos (próximamente)
 - Mis habilidades
 - Mis Certificados
 - Contáctame
