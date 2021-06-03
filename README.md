@@ -2,7 +2,7 @@
 Bienvenido a mi página web, donde a modo de portafolio podrás ver los distintos (aún pocos) proyectos que he hecho por mi cuenta y con tutoriales! 
 
 
-###¿Qué verás?
+### ¿Qué verás?
 Esta página consta de 4 secciones:
 - Sobre mi
 - Mis habilidades
