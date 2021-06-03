@@ -11,7 +11,7 @@ Esta página consta de 4 secciones:
 
 ### Sobre esta página
 - Esta página está hecha siguiendo la modalidad **Mobile First**.
-- Lenguajes utilizados **HTML**, **CSS**,** JavaScript**.
+- Lenguajes utilizados **HTML**, **CSS**, **JavaScript**.
 - El formulario está conectado a una **API** gratuita de formularios que pemite el envío de estos sin comprometer el correo del que recibe.
 - El diseño fue ideado primeramente en **Figma** antes de llevarlo a código. 
 - Esta página fue fruto de la creatividad, perseverancia y 💚, sin seguir un tutorial en especifico :) 
