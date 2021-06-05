@@ -203,10 +203,33 @@ main {
 
 .proyecto-detalle {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 220px;
   border: 1px solid black;
+  border-radius: 10px;
   margin: 10px;
+}
+
+.proyecto-detalle p {
+  margin-top: 170px;
+  padding-left: 10px;
+  letter-spacing: 0.1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: white;
+}
+
+.proyecto-portafolio {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(41, 40, 40, 0),
+      rgba(41, 40, 40, 1)
+    ),
+    url(../assets/portfolio.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /****HABILIDADES****/
