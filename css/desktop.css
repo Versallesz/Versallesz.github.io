@@ -87,6 +87,11 @@ header {
   height: 250px;
 }
 
+/*** PROYECTOS ***/
+.mis-proyectos h2 {
+  text-align: left;
+}
+
 /*** HABILIDADES ***/
 .mis-habilidades {
   order: 3;

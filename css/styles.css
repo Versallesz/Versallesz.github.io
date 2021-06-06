@@ -195,42 +195,142 @@ main {
 }
 
 /*** PROYECTOS ***/
+
 .proyectos--container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
 }
 
-.proyecto-detalle {
-  position: relative;
-  width: 250px;
-  height: 220px;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin: 10px;
+.mis-proyectos {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.proyecto-detalle p {
-  margin-top: 170px;
-  padding-left: 10px;
-  letter-spacing: 0.1rem;
-  font-size: 1.8rem;
-  font-weight: bold;
-  line-height: 1.8rem;
+.card {
+  margin: 15px;
   color: white;
-}
 
-.proyecto-portafolio {
+  background-size: cover;
+  max-width: 260px;
+  padding: 8rem 0 0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+.card-picture1 {
   background-image: linear-gradient(
       to bottom,
-      rgba(41, 40, 40, 0),
-      rgba(41, 40, 40, 1)
+      rgba(150, 150, 150, 0),
+      rgba(41, 40, 40, 0.8)
     ),
     url(../assets/portfolio.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
+.card-picture2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(150, 150, 150, 0),
+      rgba(41, 40, 40, 0.8)
+    ),
+    url(../assets/ui-ux-small.jpg);
+}
+
+.card-content {
+  padding: 1.5rem;
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0) 20%,
+    hsl(0 0% 0% / 1)
+  );
+}
+
+.card-title {
+  position: relative;
+  font-size: 1.9rem;
+  width: max-content;
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(1.5rem * -1);
+  bottom: 10px;
+  width: calc(100% + 1.5rem);
+  background-color: var(--primary-blue);
+
+  transform-origin: left; /*para que la linea aparezca desde la izquierda*/
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-title::after,
+.card:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+.card-body {
+  color: rgb(255 255 255 / 0.85);
+  font-size: 1.3rem;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  background-color: var(--btn-enviar);
+  margin: 12px 5px 0 5px;
+
+  padding: 0.8em 1.6em;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+.button:hover,
+.buton:focus {
+  background-color: var(--btn-hover);
+}
+
+@media (hover) {
+  /*para que capture a los dispositivos que tienen hover(un raton como pointer principal)*/
+  .card-content {
+    transform: translateY(68%);
+    transition: transform 0.5s ease;
+  }
+  .card-content > *:not(.card-title) {
+    opacity: 0;
+    transition: opacity 0.5s linear;
+  }
+
+  .card:hover .card-content,
+  .card:focus-within .card-content {
+    transform: translateY(0);
+    transition-delay: 0.3s;
+  }
+
+  .card:focus-within .card-content {
+    transition-duration: 0s;
+  }
+
+  .card:hover .card-content > *,
+  .card:focus-within .card-content > * {
+    opacity: 1;
+  }
+
+  .card-title::after {
+    transform: scaleX(0); /*para el efecto de movimiento en el hover */
+  }
+}
+
+/*** / PROYECTOS ***/
 
 /****HABILIDADES****/
 .mis-habilidades {
