@@ -26,7 +26,6 @@ header {
   justify-content: center;
   width: 100%;
   min-width: 320px;
-  /* height: 374px; */
   min-height: 465px;
   height: 100vh;
   padding-bottom: 30px;
@@ -44,13 +43,11 @@ header {
   background-color: rgba(255, 255, 255, 0.397);
   min-width: 200px;
   max-width: 1050px;
-  /* margin-left: 41px; */
   padding: 19px 0;
   backdrop-filter: blur(2px);
   border-radius: 15px;
   margin: 16px;
 }
-
 .header--title-container {
   min-width: 288px;
   max-width: 900px;
@@ -433,7 +430,6 @@ main {
   padding: 0.8em 1.2em;
   border-radius: 20px;
   bottom: 35px;
-  font-family: "Roboto", sans-serif;
 }
 
 .certificado--titulo {
@@ -552,6 +548,7 @@ footer div {
   align-items: center;
 }
 footer div p {
+  color: white;
   padding: 1em;
   font-size: 1.2rem;
   font-weight: 500;
