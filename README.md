@@ -3,9 +3,9 @@ Bienvenido a mi [página web](https://versallesz.github.io/), donde a modo de po
 
 
 ### ¿Qué verás?
-Esta página consta de 4 secciones:
+Esta página consta de 5 secciones:
 - Sobre mi
-- Mis proyectos (próximamente)
+- Mis proyectos 
 - Mis habilidades
 - Mis Certificados
 - Contáctame
@@ -17,5 +17,13 @@ Esta página consta de 4 secciones:
 - El diseño fue ideado primeramente en **Figma** antes de llevarlo a código. 
 - Esta página fue fruto de la creatividad, perseverancia y 💚, sin seguir un tutorial en especifico :) 
 
-###Rendimiento de la página
-espacio reservado para incluir pantallazos de Reportes generados con Lighthouse en Mobile y Desktop
+### Rendimiento de la página
+Respecto al performance de la página, esta se encuentra optimizada y hecha para ser lo más accesible posible siguiendo buenas prácticas.
+A continuación se pueden ver los reportes generados con Lighthouse:
+
+Mobile: 
+![reporte_lighthouse_mobile](https://user-images.githubusercontent.com/57638659/121083859-ef1f2f00-c7ad-11eb-9e2c-5e6d730d280e.png)
+
+Desktop:
+![reporte_lighthouse_desktop](https://user-images.githubusercontent.com/57638659/121083883-f7776a00-c7ad-11eb-8266-cad3373529d2.png)
+
