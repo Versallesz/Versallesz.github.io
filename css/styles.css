@@ -27,7 +27,7 @@ header {
   width: 100%;
   min-width: 320px;
   min-height: 460px;
-  height: 99vh;
+  height: 90vh;
   padding-bottom: 36px;
   text-align: center;
   align-items: center;
@@ -507,6 +507,7 @@ label span {
   font-size: 1.4rem;
   cursor: pointer;
   background-color: var(--btn-enviar);
+  cursor: pointer;
 }
 
 /****REDES****/
