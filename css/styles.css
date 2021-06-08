@@ -298,7 +298,7 @@ main {
   background-color: var(--btn-hover);
 }
 
-@media (hover) {
+@media (hover: hover) {
   /*para que capture a los dispositivos que tienen hover(un raton como pointer principal)*/
   .card-content {
     transform: translateY(68%);
