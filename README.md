@@ -28,7 +28,7 @@ Mobile:
 Desktop:
 ![reporte_lighthouse_desktop](https://user-images.githubusercontent.com/57638659/121083883-f7776a00-c7ad-11eb-8266-cad3373529d2.png)
 
-=======
+------------
 👋 Hola, soy @Versallesz ! 
 Bienvenido a mi perfil de Github, donde podras encontrar unos cuantos proyectos y experimentos  interesantes, hechos por mi o productos de tutoriales que he ido haciendo y respaldando aquí.
 Puedes visitar [mi web](https://versallesz.github.io/ "mi web") para mayor información.
