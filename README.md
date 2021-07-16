@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Versallesz.github.io
 Bienvenido a mi [página web](https://versallesz.github.io/), donde a modo de portafolio podrás ver los distintos (aún pocos) proyectos que he hecho por mi cuenta y con tutoriales! 
 
@@ -27,3 +28,8 @@ Mobile:
 Desktop:
 ![reporte_lighthouse_desktop](https://user-images.githubusercontent.com/57638659/121083883-f7776a00-c7ad-11eb-8266-cad3373529d2.png)
 
+=======
+👋 Hola, soy @Versallesz ! 
+Bienvenido a mi perfil de Github, donde podras encontrar unos cuantos proyectos y experimentos  interesantes, hechos por mi o productos de tutoriales que he ido haciendo y respaldando aquí.
+Algún día mejoraré este readme, mientras tanto puedes visitar [mi web](https://versallesz.github.io/ "mi web") para mayor información.
+>>>>>>> ad271a9cda0fa50389ec84f1acfa1b4cc4d37a14
