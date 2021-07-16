@@ -88,6 +88,11 @@ header {
 }
 
 /*** PROYECTOS ***/
+.proyectos--container {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
 .mis-proyectos h2 {
   text-align: left;
 }
